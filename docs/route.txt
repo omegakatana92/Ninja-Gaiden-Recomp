@@ -1,0 +1,48 @@
+# Ninja Gaiden (USA) - headless route.
+#
+# Frame numbers are the cycle host's --input schedule: one line per change,
+# the buttons held until the next line.
+#   30  START            leave the title screen
+#   40  -                release
+#   60  A                confirm / start
+#   70  -
+#   90  START
+#  100  -
+#  120  A
+#  130  -
+#  150  RIGHT
+#  160  -
+#  170  A
+#  180  -
+#  200  RIGHT+A
+#  210  -
+#  230  UP
+#  240  -
+#  250  A
+#  260  -
+#  280  LEFT
+#  290  -
+#  310  A+B
+#  320  -
+30 START
+40 -
+60 A
+70 -
+90 START
+100 -
+120 A
+130 -
+150 RIGHT
+160 -
+170 A
+180 -
+200 RIGHT+A
+210 -
+230 UP
+240 -
+250 A
+260 -
+280 LEFT
+290 -
+310 A+B
+320 -

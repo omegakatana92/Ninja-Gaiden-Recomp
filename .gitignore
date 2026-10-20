@@ -1,0 +1,25 @@
+﻿
+# Ninja Gaiden source-only publishing exclusions
+*.nes
+*.fds
+*.unf
+*.unif
+*.nsf
+*.sav
+*.srm
+*.exe
+*.dll
+*.pdb
+*.obj
+*.pyc
+*.zip
+*.iso
+*.rom
+/generated/
+/codegen/
+/build/
+/out/
+/release/
+__pycache__/
+.env
+*.key

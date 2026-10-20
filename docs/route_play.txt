@@ -1,0 +1,127 @@
+# Ninja Gaiden (USA) - headless route.
+#
+# Frame numbers are the cycle host's --input schedule: one line per change,
+# the buttons are held until the next line.  The launcher plays this route
+# headless after the first build and records the addresses the program
+# reaches in seeds/cyc_seeds.txt, so that the rebuild compiles them natively
+# instead of interpreting them.
+#
+#   0-550      the opening logo and the title screen
+#   500        START leaves the title screen
+#   600-1950   A turns the story pages one by one
+#   2000+      gameplay: the ninja walks on his own, A jumps, B attacks
+500 START
+515 -
+600 A
+615 -
+650 A
+665 -
+700 A
+715 -
+750 A
+765 -
+800 A
+815 -
+850 A
+865 -
+900 A
+915 -
+950 A
+965 -
+1000 A
+1015 -
+1050 A
+1065 -
+1100 A
+1115 -
+1150 A
+1165 -
+1200 A
+1215 -
+1250 A
+1265 -
+1300 A
+1315 -
+1350 A
+1365 -
+1400 A
+1415 -
+1450 A
+1465 -
+1500 A
+1515 -
+1550 A
+1565 -
+1600 A
+1615 -
+1650 A
+1665 -
+1700 A
+1715 -
+1750 A
+1765 -
+1800 A
+1815 -
+1850 A
+1865 -
+1900 A
+1915 -
+1950 A
+1965 -
+2000 A
+2030 RIGHT
+2050 A
+2060 -
+2090 LEFT
+2110 A
+2120 -
+2150 RIGHT
+2170 A
+2180 -
+2210 B
+2230 A
+2240 -
+2270 RIGHT
+2290 A
+2300 -
+2330 LEFT
+2350 A
+2360 -
+2390 RIGHT
+2410 B
+2430 A
+2440 -
+2470 UP
+2490 A
+2500 -
+2530 RIGHT
+2550 A
+2560 -
+2590 LEFT
+2610 A
+2620 -
+2650 RIGHT
+2670 B
+2690 A
+2700 -
+2730 LEFT
+2750 A
+2760 -
+2790 RIGHT
+2810 A
+2820 -
+2850 B
+2870 A
+2880 -
+2910 RIGHT
+2930 A
+2940 -
+2970 LEFT
+2990 A
+3000 -
+3030 RIGHT
+3050 A
+3060 -
+3090 B
+3110 A
+3120 -

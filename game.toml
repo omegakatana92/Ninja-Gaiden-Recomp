@@ -1,0 +1,18 @@
+# Ninja Gaiden (USA) - NESRecomp game configuration
+#
+# Cartridge: iNES, mapper 1 (MMC1 / SUROM), 128 KiB PRG ROM (four 32 KiB
+# banks), 128 KiB CHR ROM, horizontal mirroring, no battery, NTSC.
+# ROM SHA-256: ce3245591dd63e535287851e5e7a6881d81f7f74c7e22152903fbd6e9a2585cd
+#
+# The cycle-accurate backend discovers this cartridge's code from the reset,
+# NMI and IRQ vectors and from the seed file below.  Ninja Gaiden switches
+# MMC1 banks at run time, so most of the program is only reachable from a
+# recorded route; `seeds/cyc_seeds.txt` holds the addresses the interpreter
+# actually executed (see docs/DEVELOPMENT.md).
+
+[game]
+name = "Ninja Gaiden"
+output_prefix = "ninja_gaiden"
+cycle_accurate = true
+console = "nes"
+cycle_seed_file = "seeds/cyc_seeds.txt"
